@@ -1,0 +1,213 @@
+(footprint "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at -0.2212 -2.735 0)
+		(layer "F.SilkS")
+		(uuid "f1d75360-2855-4d34-952a-b9f2457a5d54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL_3"
+		(at -0.2212 2.735 0)
+		(layer "F.Fab")
+		(uuid "b65a274e-4eac-43e9-8258-c353ec352ac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "986abd8c-b0e0-4359-b394-36fccea70452")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af6d59ab-f7c7-4eae-a449-4475cd5aba6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel" "a19b744a89f24031b7cd0a367b10a37e"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "f780cb0f-8b90-4655-b522-1725fb78b744")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "2.9 2.8"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "0cba23d9-e5a4-4e3d-8c35-23cf82beda3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.45 -0.8)
+		(end -1.45 0.8)
+		(stroke
+			(width 0.152)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3059eb4c-3ab0-4333-8d83-c8cba49eee07")
+	)
+	(fp_line
+		(start 1.45 -0.8)
+		(end 1.45 0.8)
+		(stroke
+			(width 0.152)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c550f87-5026-4858-963f-de2380fb3d5c")
+	)
+	(fp_circle
+		(center -1.6683 1.3015)
+		(end -1.5182 1.3015)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97a0e3b1-edfc-48b8-827d-bc4d12b7407a")
+	)
+	(fp_circle
+		(center -0.92 1.68)
+		(end -0.8199 1.68)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "8ec887a5-5a3e-43e0-9f85-b7dee83210ad")
+	)
+	(pad "1" smd rect
+		(at -0.95 1.3)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "bdaabced-b779-4c02-ba73-92fdbe74e396")
+	)
+	(pad "2" smd rect
+		(at 0 1.3)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "99d4644b-bc8d-440b-8ca3-daa3c10074ce")
+	)
+	(pad "3" smd rect
+		(at 0.95 1.3)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "098ca655-20e1-4dd4-92a4-51e897ce861e")
+	)
+	(pad "4" smd rect
+		(at 0.95 -1.3)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "eb81ad1a-edb1-4d47-82d7-7729854fca01")
+	)
+	(pad "5" smd rect
+		(at 0 -1.3)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "4e117292-87cf-48e9-95db-6b68d3cdafd0")
+	)
+	(pad "6" smd rect
+		(at -0.95 -1.3)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "3d2bdfaa-ca70-4b1d-a37e-210a2f72415e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.3")
+		(uuid "8d2fcc8d-d1ca-47c8-a40e-9edc9a9f691e")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.45 -0.8) (xy 1.45 -0.8) (xy 1.45 0.8) (xy -1.45 0.8)
+			)
+		)
+		(filled_polygon
+			(layer "User.3")
+			(island)
+			(pts
+				(xy -1.45 -0.8) (xy 1.45 -0.8) (xy 1.45 0.8) (xy -1.45 0.8)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL_3.step"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)
